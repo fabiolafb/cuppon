@@ -1,0 +1,146 @@
+@media (max-width : 768px) { 
+/* Styles here */
+#texto-email{
+    font-size: 121%;
+}
+#textprecio{
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+}
+#oferta{
+    font-size: 1.4rem;
+}
+#margenprecio{
+    margin-left: 1.8rem;
+}
+}
+
+@media (min-width: 768px) {
+ /* Styles here */
+ #margenprecio{
+    margin-left: 1.9rem;
+}
+}
+
+
+@media (min-width : 1080px) {
+ /* Styles here */
+ }
+@media only screen 
+ and (min-width : 1600px) {
+ /* Styles here */
+ }
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #28a745;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+.row{
+    background-color: #FFFFFF;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #DDDDDD;
+    border-radius: .25rem;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card-body{
+    padding: 16px 16px 16px 0%;
+}
+.card-body h5{
+    color: #212529;
+    opacity: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    }
+.card-body i{
+    font-size: 90%;
+    margin-right: 5px;    
+    display: flow-root;
+    float: left;
+    padding-top: 6px;
+    color: #707070;
+}
+.card-text{
+    color: #707070;
+    font-size: 120%;
+    margin-bottom: 0;
+}
+.card-body li {
+    text-align: left;
+    border-bottom-width: 0;
+    padding: 0px;
+    color: #707070;
+    font-size: 110%;
+ }
+.hr, .mt-0{
+     color: #707070A0;
+ }
+
+.precios {
+    margin: 0%;
+    text-align: right;
+    word-break: break-all;
+}  
+.texto-precio {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    opacity: 100%;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+}
+.oferta{
+    color: #28a745;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-right: 1.3rem;
+    word-break: break-all;
+}
+
+.formulario, .navbar{
+    background-color: #28a745;
+}
+.form-control{
+    color: #707070;
+    font-size: 120%;
+    opacity: 100%;
+}
+.mx-auto {
+   font-size: 145%;
+}
+.formulario, .p{
+    background-color: #F8F9FA;
+    border-color: #DDDDDD;
+    font-family: 'Roboto', sans-serif;
+    opacity: 100%;
+}
+.marcaregistrada{
+    font-size: 16pt;
+    color: #707070;
+    opacity: 100%;
+}
